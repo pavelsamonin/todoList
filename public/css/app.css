@@ -1,0 +1,22 @@
+#right-content .list-group-item {
+    cursor: move;
+}
+
+.ghost {
+    opacity: .4;
+}
+
+div.over {
+    border: 2px dashed #000;
+    opacity: '0.4'
+}
+
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
